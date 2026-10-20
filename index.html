@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="A romantic 4-month anniversary website crafted with love for Leilte." />
+  <title>Happy 4 Months, Leilte! 👑❤️</title>
+
+  <!-- Google Fonts for romantic typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating Hearts Canvas Background -->
+  <canvas id="hearts-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="romantic-nav" id="top-nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <span class="logo-crown">👑</span>
+        <span class="logo-text">Leilte &amp; Me</span>
+      </a>
+      <nav class="nav-links" id="main-nav-links" aria-label="Main Navigation">
+        <a href="#memories">Photos</a>
+        <a href="#videos">Videos</a>
+        <a href="#letter">Love Letter</a>
+        <a href="#reasons">Reasons</a>
+        <a href="#music">Our Song</a>
+        <a href="#time">Our Time</a>
+        <a href="#question">The Question</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="sound-toggle" class="nav-icon-btn" title="Toggle Romantic Chimes" aria-label="Toggle Romantic Chimes">
+          <span class="sound-icon">✨</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         SECTION 1: OPENING SCREEN (HERO)
+         ========================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-wrapper">
+        <div class="floating-badge">
+          <span class="badge-sparkle">💖</span> 4 Beautiful Months Together <span class="badge-sparkle">💖</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hey, ልዕልቴ! <span class="crown-emoji">👑</span><span class="heart-emoji">❤️</span>
+        </h1>
+
+        <p class="hero-subtitle">My beautiful princess.</p>
+
+        <div class="hero-card">
+          <div class="envelope-seal" aria-hidden="true">💌</div>
+          <p class="hero-line hero-line-1">I made something special for you...</p>
+          <p class="hero-line hero-line-2">
+            <span class="laugh-emoji"></span>
+          </p>
+          <p class="hero-line hero-line-3">
+            But every little part of it comes from my heart... yene konjo.
+          </p>
+          <p class="hero-prompt">Ready to see it, beautiful?</p>
+
+          <button id="open-surprise-btn" class="btn-primary pulse-btn" aria-label="Open your anniversary surprise">
+            <span class="btn-text">Open Your Surprise</span>
+            <span class="btn-icon">💌</span>
+          </button>
+        </div>
+
+        <a href="#memories" class="scroll-indicator" aria-label="momentochachen">
+          <span class="scroll-mouse"></span>
+          <span class="scroll-text">Scroll to explore</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 2: OUR LITTLE MEMORIES (10 POLAROIDS)
+         ========================================== -->
+    <section class="section-container" id="memories">
+      <div class="section-header">
+        <span class="section-tag">yene tafach 📸</span>
+        <h2 class="section-title">Our Little Memories</h2>
+        <p class="section-desc">egziabhern yene enat every moment with you is my new favorite memory.</p>
+      </div>
+
+      <!-- Polaroid Scrapbook Grid (10 Photographs) -->
+      <div class="polaroid-grid" id="polaroid-gallery">
+
+        <!-- Polaroid 01 -->
+        <article class="polaroid-card" style="--rotation: -2.2deg;" data-index="0">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-01.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-01.svg';" 
+              alt="Photo of Leilte - How are you even this beautiful?" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 1">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"abebaye 😭❤️"</p>
+            <span class="caption-date">Memory #01</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 02 -->
+        <article class="polaroid-card" style="--rotation: 2deg;" data-index="1">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-02.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-02.svg';" 
+              alt="Photo of Leilte - My camera roll's favorite person" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 2">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"yene chereka."</p>
+            <span class="caption-date">Memory #02</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 03 -->
+        <article class="polaroid-card" style="--rotation: -1.8deg;" data-index="2">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-03.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-03.svg';" 
+              alt="Photo of Leilte - The girl who makes everything better" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 3">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"aleme"</p>
+            <span class="caption-date">Memory #03</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 04 -->
+        <article class="polaroid-card" style="--rotation: 2.4deg;" data-index="3">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-04.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-04.svg';" 
+              alt="Photo of Leilte - You're so cute it's unfair" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 4">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"sesete"</p>
+            <span class="caption-date">Memory #04</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 05 -->
+        <article class="polaroid-card" style="--rotation: -2deg;" data-index="4">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-05.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-05.svg';" 
+              alt="Photo of Leilte - Proof that I got ridiculously lucky" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 5">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"proof that i got ridiculously lucky.😍"</p>
+            <span class="caption-date">Memory #05</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 06 -->
+        <article class="polaroid-card" style="--rotation: 1.8deg;" data-index="5">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-06.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-06.svg';" 
+              alt="Photo of Leilte - My favorite smile in the whole universe" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 6">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"my favorite smile in the whole universe. ✨"</p>
+            <span class="caption-date">Memory #06</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 07 -->
+        <article class="polaroid-card" style="--rotation: -2.3deg;" data-index="6">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-07.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-07.svg';" 
+              alt="Photo of Leilte - Every moment with you is magic" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 7">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"Every moment with you is magic ohhh😭🌷"</p>
+            <span class="caption-date">Memory #07</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 08 -->
+        <article class="polaroid-card" style="--rotation: 2.1deg;" data-index="7">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-08.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-08.svg';" 
+              alt="Photo of Leilte - The prettiest girl in every room" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 8">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"the prettiest girl in every room 👑"</p>
+            <span class="caption-date">Memory #08</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 09 -->
+        <article class="polaroid-card" style="--rotation: -1.7deg;" data-index="8">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-09.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-09.svg';" 
+              alt="Photo of Leilte - You stole my heart and kept it safe" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 9">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"you stole my heart and kept it safe 🥰"</p>
+            <span class="caption-date">Memory #09</span>
+          </div>
+        </article>
+
+        <!-- Polaroid 10 -->
+        <article class="polaroid-card" style="--rotation: 2.5deg;" data-index="9">
+          <div class="washi-tape" aria-hidden="true"></div>
+          <div class="polaroid-img-wrapper">
+            <img 
+              src="assets/photos/photo-10.jpg" 
+              onerror="this.onerror=null; this.src='assets/photos/placeholder-10.svg';" 
+              alt="Photo of Leilte - Four months down, forever to go" 
+              class="polaroid-img"
+              loading="lazy"
+            />
+            <button class="zoom-btn" title="View Full Photo" aria-label="Zoom photo 10">🔍</button>
+          </div>
+          <div class="polaroid-caption">
+            <p class="caption-text">"four months down, forever to go.. wey demo infinity 😋💍❤️"</p>
+            <span class="caption-date">Memory #10</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="memories-footer-tip">
+        <p>💡 Tip: Tap or click any polaroid to see it up close in full view.</p>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 3: OUR FAVORITE VIDEOS (15 VIDEOS)
+         ========================================== -->
+    <section class="section-container" id="videos">
+      <div class="section-header">
+        <span class="section-tag">Moving Memories 🎬</span>
+        <h2 class="section-title">Our Favorite Videos</h2>
+        <p class="section-desc">Every smile, laugh, and candid second caught on tape.</p>
+      </div>
+
+      <!-- Video Grid (15 Personal Videos) -->
+      <div class="video-grid" id="video-gallery">
+
+        <!-- Video 01 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #01 💖</span>
+            <span class="video-time-tag">Our Story</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-01.svg" 
+              class="romantic-video"
+              aria-label="Video 1: Our First Video Together"
+            >
+              <source src="assets/videos/video-01.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-01.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Our First Video Together 🎬</h3>
+            <p class="video-desc">The moment I knew I never wanted to let you go.</p>
+          </div>
+        </article>
+
+        <!-- Video 02 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #02 🌸</span>
+            <span class="video-time-tag">Sweet Laughter</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-02.svg" 
+              class="romantic-video"
+              aria-label="Video 2: Her Sweetest Laughter"
+            >
+              <source src="assets/videos/video-02.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-02.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Her Sweetest Laughter 💖</h3>
+            <p class="video-desc">The sound that instantly makes everything in the world okay.</p>
+          </div>
+        </article>
+
+        <!-- Video 03 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #03 🌿</span>
+            <span class="video-time-tag">having fun</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-03.svg" 
+              class="romantic-video"
+              aria-label="Video 3: Walking Around Campus"
+            >
+              <source src="assets/videos/video-03.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-03.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">yene sekaram🌸</h3>
+            <p class="video-desc">she is sometimes sekaram.</p>
+          </div>
+        </article>
+
+        <!-- Video 04 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #04 ✨</span>
+            <span class="video-time-tag">Cutest Energy</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-04.svg" 
+              class="romantic-video"
+              aria-label="Video 4: That Cute Little Dance"
+            >
+              <source src="assets/videos/video-04.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-04.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">That Cute Little Dance ✨</h3>
+            <p class="video-desc">You being your goofy, adorable, completely perfect self.</p>
+          </div>
+        </article>
+
+        <!-- Video 05 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #05 👑</span>
+            <span class="video-time-tag">Royal Treatment</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-05.svg" 
+              class="romantic-video"
+              aria-label="Video 5: Princess Being Adorable"
+            >
+              <source src="assets/videos/video-05.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-05.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Princess Being Adorable 👑</h3>
+            <p class="video-desc">Living proof that real royalty exists, and I'm blessed she's mine.</p>
+          </div>
+        </article>
+
+        <!-- Video 06 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #06 ☕</span>
+            <span class="video-time-tag">Perfect nails </span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-06.svg" 
+              class="romantic-video"
+              aria-label="Video 6: Coffee Date Memories"
+            >
+              <source src="assets/videos/video-06.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-06.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">her nails </h3>
+            <p class="video-desc">💅😍 </p>
+          </div>
+        </article>
+
+        <!-- Video 07 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #07 🌟</span>
+            <span class="video-time-tag">Late Nights</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-07.svg" 
+              class="romantic-video"
+              aria-label="Video 7: Late Night Talks"
+            >
+              <source src="assets/videos/video-07.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-07.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Late Night walks 🌟</h3>
+            <p class="video-desc">Hours always feel like seconds whenever I'm walking with you.</p>
+          </div>
+        </article>
+
+        <!-- Video 08 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #08 🥰</span>
+            <span class="video-time-tag">Pure Happiness</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-08.svg" 
+              class="romantic-video"
+              aria-label="Video 8: Catching Her Smiling"
+            >
+              <source src="assets/videos/video-08.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-08.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Catching Her Smiling 🥰</h3>
+            <p class="video-desc">I could honestly watch you smile for the rest of my life.</p>
+          </div>
+        </article>
+
+        <!-- Video 09 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #09 🍦</span>
+            <span class="video-time-tag">Sweet Treats</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-09.svg" 
+              class="romantic-video"
+              aria-label="Video 9: Sweet Treats & Sweet Smiles"
+            >
+              <source src="assets/videos/video-09.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-09.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Sweet Treats &amp; Smiles 🍦</h3>
+            <p class="video-desc">Life is infinitely sweeter with you right beside me.</p>
+          </div>
+        </article>
+
+        <!-- Video 10 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #10 📸</span>
+            <span class="video-time-tag">Behind The Scenes</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-10.svg" 
+              class="romantic-video"
+              aria-label="Video 10: Behind The Scenes with Leilte"
+            >
+              <source src="assets/videos/video-10.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-10.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Behind The Scenes with Leilte 📸</h3>
+            <p class="video-desc">The real, unfiltered, effortlessly stunning version of you.</p>
+          </div>
+        </article>
+
+        <!-- Video 11 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #11 💫</span>
+            <span class="video-time-tag">food</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-11.svg" 
+              class="romantic-video"
+              aria-label="Video 11: That Look She Gives Me"
+            >
+              <source src="assets/videos/video-11.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-11.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">food😋💫</h3>
+            <p class="video-desc">just food.</p>
+          </div>
+        </article>
+
+        <!-- Video 12 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #12 🌷</span>
+            <span class="video-time-tag">Reunion Magic</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-12.svg" 
+              class="romantic-video"
+              aria-label="Video 12: sexy"
+            >
+              <source src="assets/videos/video-12.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-12.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">sexy as fuck🌷</h3>
+            <p class="video-desc">🥵🥵</p>
+          </div>
+        </article>
+
+        <!-- Video 13 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #13 🎶</span>
+            <span class="video-time-tag">rain</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-13.svg" 
+              class="romantic-video"
+              aria-label="Video 13: Singing Along in the Car"
+            >
+              <source src="assets/videos/video-13.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-13.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">That rain☔ </h3>
+            <p class="video-desc">besbsen😭</p>
+          </div>
+        </article>
+
+        <!-- Video 14 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #14 💌</span>
+            <span class="video-time-tag">Candid Love</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-14.svg" 
+              class="romantic-video"
+              aria-label="Video 14: Little Candid Moments"
+            >
+              <source src="assets/videos/video-14.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-14.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Another coffee date💌</h3>
+            <p class="video-desc">Cuz my princes loves coffee beeeetam i don't think enen enkuan keza belay metodegn.</p>
+          </div>
+        </article>
+
+        <!-- Video 15 -->
+        <article class="video-card">
+          <div class="video-card-header">
+            <span class="video-clip-tag">Clip #15 💍</span>
+            <span class="video-time-tag">Forever Ahead</span>
+          </div>
+          <div class="video-player-wrapper">
+            <video 
+              controls 
+              preload="none" 
+              playsinline 
+              poster="assets/videos/poster-15.svg" 
+              class="romantic-video"
+              aria-label="Video 15: 4 Months & Every Day Forever"
+            >
+              <source src="assets/videos/video-15.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-fallback-notice" style="display: none;">
+              <span class="fallback-icon">🎥</span>
+              <p class="fallback-text">Add your video to <code>assets/videos/video-15.mp4</code></p>
+            </div>
+          </div>
+          <div class="video-card-body">
+            <h3 class="video-title">Another food</h3>
+            <p class="video-desc">ejen tenedfe mar neh eyalech setazgegn neber😭</p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="memories-footer-tip">
+        <p>💡 Tip: Tap any video to play. Videos use lazy loading so your mobile data stays fast!</p>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 4: A LETTER FROM MY HEART
+         ========================================== -->
+    <section class="section-container" id="letter">
+      <div class="section-header">
+        <span class="section-tag">Wax Sealed with Love ✉️</span>
+        <h2 class="section-title">A Letter From My Heart</h2>
+        <p class="section-desc">Words I mean with every beat of my heart.</p>
+      </div>
+
+      <div class="letter-card-container">
+        <article class="letter-parchment">
+          <div class="wax-seal" title="Sealed with Love" aria-hidden="true">
+            <span class="wax-letter">L</span>
+          </div>
+
+          <header class="letter-header">
+            <h3 class="letter-salutation">yene tafach,</h3>
+            <span class="letter-tagline">Happy four months,...አፈቅርሻለው❤️</span>
+          </header>
+
+          <div class="letter-body">
+            <p>
+              It's crazy how we've been together for four months.. but sometimes it feels like we've known each other for so much longer
+            </p>
+
+            <p>
+              Those two months we spent apart during the summer made me realize just how much you mean to me... I missed having you around.. and now that we're together again.. everything feels different in the best possible way
+            </p>
+
+            <p>
+              You make this university feel like home...... You make my world a more beautiful place, and you bring out a caring, loving, and happier version of me that I never want to lose.
+            </p>
+
+            <p>
+              I love your smile, your beauty, your style, your intelligence, and the way you carry yourself. You're sexy, cute, smart, and an amazing dresser. Honestly, sometimes I wonder how one person can have so many things I love😂❤️ egziabhern yemren new yene fkr
+            </p>
+
+            <p>
+              But it's not only about how beautiful you are... It's about how you make me feel, how happy I am around you, and how special my life feels with you in it
+            </p>
+
+            <p>
+              These four months mean so much to me🤗 and I hope they're just the beginning of a beautiful story together
+            </p>
+
+            <p class="letter-highlight">
+              Thank you for being you
+            </p>
+
+            <p class="letter-promise">
+              love you so much, my princess. ❤️👑
+            </p>
+
+            <p class="letter-cheer">
+              Happy four months
+            </p>
+          </div>
+
+          <footer class="letter-signature-block">
+            <p class="letter-signoff">With all</p>
+            <p class="letter-sender">Your boyfriend ❤️</p>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 5: REASONS WHY I LOVE YOU
+         ========================================== -->
+    <section class="section-container" id="reasons">
+      <div class="section-header">
+        <span class="section-tag">Infinite Reasons 🌸</span>
+        <h2 class="section-title">Reasons Why I Love You</h2>
+        <p class="section-desc">There are thousands, but here are some of my favorites.</p>
+      </div>
+
+      <div class="reasons-interactive-box">
+        <div class="reason-card" id="reason-display-card">
+          <div class="reason-header">
+            <span class="reason-badge" id="reason-counter">Reason #1</span>
+            <span class="reason-sparkle">💖</span>
+          </div>
+
+          <div class="reason-content-area">
+            <p class="reason-text" id="reason-quote">
+              "Your smile makes my day better."
+            </p>
+          </div>
+
+          <div class="reason-progress-bar" aria-label="Reasons viewed progress">
+            <div class="reason-progress-fill" id="reason-progress-fill" style="width: 10%;"></div>
+          </div>
+          <span class="reason-tracker-label" id="reason-tracker-label">1 of 10 reasons shown</span>
+        </div>
+
+        <div class="reasons-action-row">
+          <button id="next-reason-btn" class="btn-primary" aria-label="Show me another reason why I love you">
+            <span class="btn-text">Show Me Another Reason</span>
+            <span class="btn-icon">❤️</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 6: OUR SONG
+         ========================================== -->
+    <section class="section-container" id="music">
+      <div class="section-header">
+        <span class="section-tag">Soundtrack of Us 🎶</span>
+        <h2 class="section-title">Our Song</h2>
+        <p class="section-desc">The melody that will always remind me of you.</p>
+      </div>
+
+      <div class="music-player-card">
+        <!-- Vinyl Record Visual -->
+        <div class="vinyl-container">
+          <div class="vinyl-disc" id="vinyl-disc" aria-hidden="true">
+            <div class="vinyl-groove-lines"></div>
+            <div class="vinyl-center-label">
+              <span class="vinyl-song-icon">👑</span>
+              <span class="vinyl-song-tag">Leilte</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Song Metadata & Player Controls -->
+        <div class="song-info-wrapper">
+          <div class="song-header-info">
+            <span class="song-badge">Our Romantic Melody</span>
+            <h3 class="song-title" id="song-title-display">ፍኪልኝ</h3>
+            <p class="song-artist" id="song-artist-display">Aregahegn Worash</p>
+          </div>
+
+          <!-- HTML5 Audio Element (Loads assets/music/our-song.mp3 if provided) -->
+          <audio id="audio-player" preload="metadata">
+            <source src="assets/music/our-song.mp3" type="audio/mpeg" />
+            Your browser does not support audio.
+          </audio>
+
+          <!-- Audio Status Indicator -->
+          <div class="music-status-box" id="music-status-box">
+            <span class="status-dot" id="music-status-dot"></span>
+            <span class="status-text" id="music-status-text">Ready to play</span>
+          </div>
+
+          <!-- Audio Controls -->
+          <div class="player-controls-row">
+            <button id="play-pause-btn" class="btn-primary player-play-btn" aria-label="Play or pause our song">
+              <span id="play-btn-icon" class="player-icon">▶</span>
+              <span id="play-btn-text">Play Song</span>
+            </button>
+
+            <!-- External Music Link (Spotify / YouTube) -->
+            <a 
+              id="external-music-link" 
+              href="https://youtu.be/Rga3RP5Ym0k?si=ajTBAgp7WQSacgk7" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-secondary"
+              aria-label="Open song on Spotify or streaming service"
+            >
+              <span>Listen on Spotify 🎵</span>
+            </a>
+          </div>
+
+          <p class="music-note-help" id="music-helper-text">
+            💡 To play local music: place your audio file in <code>assets/music/our-song.mp3</code>, or click the Spotify button to stream anytime!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 7: OUR TIME TOGETHER
+         ========================================== -->
+    <section class="section-container" id="time">
+      <div class="section-header">
+        <span class="section-tag">Every Single Second ✨</span>
+        <h2 class="section-title">Our Time Together</h2>
+        <p class="section-desc">Every day with you is a blessing I cherish.</p>
+      </div>
+
+      <div class="time-card">
+        <div class="time-main-display">
+          <div class="time-glow-icon">💖</div>
+          <h3 class="time-headline" id="time-headline">4 Months Together ❤️</h3>
+          <p class="time-subheadline" id="time-subheadline">And counting...</p>
+        </div>
+
+        <!-- Live Ticker Grid (Dynamically activates if anniversary date is configured in script.js) -->
+        <div class="time-counter-grid" id="time-ticker-container">
+          <div class="time-unit-box">
+            <span class="unit-number" id="unit-months">4</span>
+            <span class="unit-label">Months</span>
+          </div>
+          <div class="time-unit-box">
+            <span class="unit-number" id="unit-days">120+</span>
+            <span class="unit-label">Days</span>
+          </div>
+          <div class="time-unit-box">
+            <span class="unit-number" id="unit-hours">2,880+</span>
+            <span class="unit-label">Hours</span>
+          </div>
+          <div class="time-unit-box">
+            <span class="unit-number" id="unit-status">Forever</span>
+            <span class="unit-label">In Love</span>
+          </div>
+        </div>
+
+        <div class="time-dynamic-message" id="time-dynamic-message">
+          <p class="time-status-pill">4 beautiful months and counting</p>
+        </div>
+
+        <!-- Milestone Timeline -->
+        <div class="milestones-timeline">
+          <div class="milestone-item">
+            <div class="milestone-dot">🌱</div>
+            <div class="milestone-content">
+              <strong>Month 1</strong>
+              <span>Where our sweet journey began</span>
+            </div>
+          </div>
+          <div class="milestone-item">
+            <div class="milestone-dot">☀️</div>
+            <div class="milestone-content">
+              <strong>Summer Apart</strong>
+              <span>Two months that proved how deeply I need you</span>
+            </div>
+          </div>
+          <div class="milestone-item active-milestone">
+            <div class="milestone-dot">👑</div>
+            <div class="milestone-content">
+              <strong>Month 4 (Today!)</strong>
+              <span>Reunited, happier than ever &amp; madly in love</span>
+            </div>
+          </div>
+          <div class="milestone-item">
+            <div class="milestone-dot">💍</div>
+            <div class="milestone-content">
+              <strong>Forever</strong>
+              <span>All the chapters yet to be written together</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 8: THE BIG QUESTION 😂❤️
+         ========================================== -->
+    <section class="section-container proposal-section" id="question">
+      <div class="section-header">
+        <span class="section-tag">A Very Serious Inquiry 🥹❤️</span>
+        <h2 class="section-title">The Big Question</h2>
+      </div>
+
+      <div class="proposal-card" id="proposal-card">
+        <div class="proposal-prompt-area">
+          <p class="proposal-lead">So... one very important question... waaaaaaa yes yemilewn batmerchi🤨❤️</p>
+          <p class="proposal-body">
+            We've spent four beautiful months together, and honestly, I want so many more.
+          </p>
+          <h3 class="proposal-ask">
+            Will you stay with me for the rest of this crazy little life? ❤️👑
+          </h3>
+        </div>
+
+        <!-- Interactive Dodge Zone for the Buttons -->
+        <div class="proposal-buttons-zone" id="proposal-buttons-zone">
+          <button id="yes-btn" class="btn-primary proposal-yes-btn" aria-label="Yes, forever!">
+            <span class="btn-sparkle">💖</span> YES, FOREVER! ❤️
+          </button>
+          <button id="no-btn" class="proposal-no-btn" aria-label="No">
+            No 💔
+          </button>
+        </div>
+
+        <p class="dodge-hint" id="dodge-hint">
+          (P.S. There's only one right answer here... 😉)
+        </p>
+
+        <!-- Celebratory Reveal Container (Initially hidden, revealed on YES) -->
+        <div class="celebration-container" id="celebration-box" style="display: none;" role="region" aria-live="polite">
+          <div class="celebration-fireworks">🎉✨💖✨🎉</div>
+          <h3 class="celebration-title">YAAAAAY! ❤️😭</h3>
+          <p class="celebration-princess">Happy four months, my princess!</p>
+          <p class="celebration-message">
+            "If I had to choose all over again, I'd still choose you."
+          </p>
+          <p class="celebration-subtext">
+            Here's to more memories, more laughter, more hugs, more kisses, and more beautiful days together.
+          </p>
+          <p class="celebration-love">love you❤️👑</p>
+          <button id="replay-confetti-btn" class="btn-secondary" style="margin-top: 1.25rem;">
+            Shower More Hearts! 💕
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 9: FINAL SCREEN
+         ========================================== -->
+    <section class="final-screen-section" id="final-screen">
+      <div class="final-screen-content">
+        <div class="final-crown-emblem" aria-hidden="true">👑</div>
+
+        <blockquote class="final-quote">
+          "No matter where life takes us, I hope we keep choosing each other. ❤️"
+        </blockquote>
+
+        <h2 class="final-heading">Happy 4 Months, yene heywet.</h2>
+
+        <p class="final-subheading">
+          Here's to all the memories we've made and all the ones still to come.
+        </p>
+
+        <div class="final-floating-hearts" aria-hidden="true">
+          <span>💖</span>
+          <span>🌸</span>
+          <span>✨</span>
+          <span>👑</span>
+          <span>💕</span>
+        </div>
+
+        <div class="final-actions">
+          <a href="#hero" class="btn-primary" aria-label="Scroll back to top">
+            <span>Read From Beginning 💌</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       MODALS & OVERLAYS
+       ========================================== -->
+
+  <!-- Lightbox Modal for Polaroid Photos -->
+  <div id="photo-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" style="display: none;">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content modal-polaroid">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close photo view">✕</button>
+      <div class="modal-img-wrapper">
+        <img id="modal-img" src="" alt="Enlarged photo of Leilte" />
+      </div>
+      <div class="modal-caption-box">
+        <p id="modal-caption" class="modal-caption-text"></p>
+        <button id="modal-heart-btn" class="modal-heart-action" title="Send a heart" aria-label="Send a heart">
+          ❤️ <span id="modal-heart-count">1</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Funny Error Modal if NO is somehow clicked -->
+  <div id="no-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" style="display: none;">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content modal-funny-error">
+      <div class="funny-error-icon">🤖💔</div>
+      <h3 class="funny-error-title">ERROR 404</h3>
+      <p class="funny-error-message">
+        Your boyfriend's heart cannot process this answer. 😂💔
+      </p>
+      <p class="funny-error-sub">
+        System diagnosis: The only valid selection in the universe is "YES, FOREVER! ❤️".
+      </p>
+      <button id="error-fix-btn" class="btn-primary">
+        Okay okay, I choose YES! 🥰
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="romantic-footer">
+    <div class="footer-container">
+      <p class="footer-love-text">
+        Crafted with all my heart for <strong>Leilte</strong> 👑❤️
+      </p>
+      <p class="footer-date-text">
+        Celebrating Our 4-Month Anniversary &amp; Forever Ahead
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

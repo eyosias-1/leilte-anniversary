@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g_placeholder-04_svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1f2" />
+      <stop offset="50%" stop-color="#ffe4e6" />
+      <stop offset="100%" stop-color="#fecdd3" />
+    </linearGradient>
+    <radialGradient id="spk_placeholder-04_svg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g_placeholder-04_svg)" />
+  <circle cx="120" cy="140" r="140" fill="url(#spk_placeholder-04_svg)" />
+  <circle cx="480" cy="460" r="160" fill="url(#spk_placeholder-04_svg)" />
+  <rect x="35" y="35" width="530" height="530" rx="28" fill="#ffffff" fill-opacity="0.65" stroke="#fda4af" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <circle cx="300" cy="210" r="80" fill="#ffffff" stroke="#f43f5e" stroke-width="3" filter="drop-shadow(0 8px 16px rgba(244,63,94,0.18))"/>
+  <text x="300" y="238" font-size="70" text-anchor="middle" font-family="'Segoe UI Emoji', Apple Color Emoji, sans-serif">✨</text>
+  <text x="300" y="335" font-size="28" font-weight="700" fill="#9f1239" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif">Cutest Smile Ever</text>
+  <text x="300" y="375" font-size="17" fill="#be123c" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif">Add your photo here:</text>
+  <rect x="130" y="405" width="340" height="46" rx="23" fill="#ffffff" stroke="#fb7185" stroke-width="2"/>
+  <text x="300" y="435" font-size="16" font-weight="700" fill="#e11d48" text-anchor="middle" font-family="Consolas, monospace">assets/photos/photo-04.jpg</text>
+  <text x="300" y="495" font-size="15" fill="#fb7185" font-style="italic" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif">✨ Click to view polaroid note ✨</text>
+</svg>
